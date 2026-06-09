@@ -35,7 +35,8 @@ public class Guest {
     String surname;
     Long phone;
     @ManyToMany
-    List <habitaciones> habitaciones;
+    List <Reserva> reservas;
+  
 
 
 }
